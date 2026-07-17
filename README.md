@@ -14,13 +14,17 @@
 
 <br>
 
-A solo developed tool, built out of frustration with how manual, slow, and repetitive supplier sourcing has become. Sourcerer takes whatever you type &mdash; a product, a material, a spec, a part number, anything &mdash; and instantly fans it out across a curated network of global marketplaces and B2B directories, opening each one in its own browser tab, ready to compare. No sign-up. No predefined product database. No limits on what you're allowed to search. Type it, tab it, source it.
+> **Heads up: this is a beta.** I built and ship this alone, in whatever spare time I've got, so it's rough around the edges and will occasionally do something dumb &mdash; a marketplace changes its URL format, a tab opens slower than the rest, that kind of thing. Updates happen when I get to them, not on a schedule. If it breaks for you, it's not you, it's the one-person team behind it.
+
+<br>
+
+A solo developed tool, built out of frustration with how manual, slow, and repetitive supplier sourcing has become. I got tired of opening the same six marketplace tabs by hand every time I needed to find a supplier for something, so I built the thing that does it for me. Sourcerer takes whatever you type &mdash; a product, a material, a spec, a part number, whatever &mdash; and fans it out across a network of global marketplaces and B2B directories, one browser tab per source, ready to compare. No sign-up, no predefined product list, no telling you what you're "allowed" to search for. Type it, tab it, source it.
 
 <br>
 
 ## Why it exists
 
-Most sourcing tools make you pick from a dropdown of categories they've already decided you need. Sourcerer doesn't work that way. There is no product catalog baked into it, no list of "supported items" &mdash; the search box takes anything, in any case, and the tool figures out where to point you. That's the whole idea: **the moment you have to pre-teach a tool what it's allowed to search for, it stops being useful for the thing you actually needed it for.**
+Most sourcing tools make you pick from a dropdown of categories someone else already decided you need. This doesn't do that. There's no product catalog baked in, no list of "supported items" &mdash; the search box takes anything, in any case, and it just goes and opens the tabs. That was the whole point of building it: the second a tool makes you pre-teach it what you're allowed to search for, it stops being useful for the thing you actually needed it for. I'd rather ship something a little rough that searches for anything than something polished that only searches for what I thought to hardcode.
 
 <br>
 
@@ -85,17 +89,29 @@ The tab slider then pulls from whatever pool that leaves, always in the same div
 
 ## Installing
 
-No installer, no dependencies, no Python required on your machine.
+No installer, no dependencies, no Python required on your machine. Just the exe.
 
 1. Grab `Sourcerer.exe` from this repository.
 2. Run it.
-3. Windows SmartScreen may flag it as unrecognized, since it isn't code-signed &mdash; this is expected for an independently built tool. Click **More info → Run anyway**.
+3. Windows SmartScreen will probably flag it as unrecognized &mdash; that's just because it isn't code-signed (signing certificates aren't cheap for a solo side project). Click **More info → Run anyway**. It's not doing anything shady, I promise, but obviously don't take a stranger's word for it &mdash; the source is small enough to read yourself if you want to be sure.
 
 <br>
 
 ## A note on how it behaves
 
-Sourcerer never phones home. It doesn't collect analytics, doesn't store your searches, doesn't need an internet connection to start, and doesn't touch anything on your machine beyond opening your browser. Every tab it opens is a standard search results page on the destination site's own domain &mdash; you're always in control of what happens after that.
+It doesn't phone home, doesn't collect analytics, doesn't store your searches anywhere, and doesn't touch anything on your machine beyond opening your browser. Every tab it opens is just a normal search results page on the destination site's own domain. I have no interest in logging what you search for &mdash; I built this to save myself time, not to collect data.
+
+<br>
+
+## Known rough edges
+
+Since this is beta and maintained by one person:
+
+- Some marketplaces occasionally change how their search URLs work, which can make a tab land somewhere unexpected until I notice and fix it.
+- Opening a lot of tabs at once depends on your browser and machine &mdash; it can lag on slower setups.
+- No auto-update yet. New versions get posted here whenever they're ready, not on any set cadence.
+
+If you hit something broken, it's genuinely useful to know about &mdash; open an issue and I'll get to it when I can.
 
 <br>
 
@@ -103,4 +119,4 @@ Sourcerer never phones home. It doesn't collect analytics, doesn't store your se
 
 MIT &mdash; use it, fork it, point it at whatever you're sourcing.
 
-<p align="center"><sub>Built solo. No team, no roadmap meetings &mdash; just a tool that got made because it needed to exist.</sub></p>
+<p align="center"><sub>Built and maintained solo. No team, no roadmap meetings, no VC deck &mdash; just a tool I made because I needed it and figured other people might too.</sub></p>
