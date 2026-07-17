@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="150" alt="Sourcerer" />
+  <img src="logo.png" width="150" alt="Sourcerer" />
 </p>
 
 <h1 align="center">Sourcerer</h1>
