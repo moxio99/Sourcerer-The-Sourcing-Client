@@ -112,11 +112,3 @@ Since this is beta and maintained by one person:
 - No auto-update yet. New versions get posted here whenever they're ready, not on any set cadence.
 
 If you hit something broken, it's genuinely useful to know about &mdash; open an issue and I'll get to it when I can.
-
-<br>
-
-## License
-
-MIT &mdash; use it, fork it, point it at whatever you're sourcing.
-
-<p align="center"><sub>Built and maintained solo. No team, no roadmap meetings, no VC deck &mdash; just a tool I made because I needed it and figured other people might too.</sub></p>
