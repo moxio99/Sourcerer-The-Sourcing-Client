@@ -9,7 +9,7 @@
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows-0e1626?style=flat-square">
   <img alt="build" src="https://img.shields.io/badge/built%20with-Python%20%2F%20Tkinter-22d3ee?style=flat-square">
   <img alt="install" src="https://img.shields.io/badge/install-zero%20dependencies-fb923c?style=flat-square">
-  <img alt="license" src="https://img.shields.io/badge/license-MIT-1690a6?style=flat-square">
+  
 </p>
 
 <br>
