@@ -1,115 +1,101 @@
 <p align="center">
-  <img src="logo.png" width="150" alt="Sourcerer" />
+  <img src="logo.png" width="130" alt="sourcerer" />
 </p>
 
-<h1 align="center">Sourcerer</h1>
-<p align="center"><i>Autonomous supplier discovery, one search away.</i></p>
+<h1 align="center">sourcerer</h1>
+<p align="center"><i>type it, tab it, source it.</i></p>
 
 <p align="center">
-  <img alt="platform" src="https://img.shields.io/badge/platform-Windows-0e1626?style=flat-square">
-  <img alt="build" src="https://img.shields.io/badge/built%20with-Python%20%2F%20Tkinter-22d3ee?style=flat-square">
+  <img alt="platform" src="https://img.shields.io/badge/platform-windows-0e1626?style=flat-square">
+  <img alt="build" src="https://img.shields.io/badge/built%20with-python%20%2F%20tkinter-22d3ee?style=flat-square">
   <img alt="install" src="https://img.shields.io/badge/install-zero%20dependencies-fb923c?style=flat-square">
-  
 </p>
 
 <br>
 
-> Please note that this tool is solely developed by a single person, so it's not throughly tested, nor it is regularly updated. I built this tool to make it easier for those finding suppliers on products they're looking for, just by a click of a button. I don't regularly update this and it's pretty much in beta. If the searches are successful, that's a good thing, if it breaks, that's on me, I'm still working on this project. Please note this isn't abandoned, but it isn't my main focus aswell. 
+> heads up, this is a solo project and still rough in places. i built it because i was tired of opening the same six marketplace tabs by hand every time i needed a supplier. updates happen whenever i get to them.
 
 <br>
 
-Opening tons of tabs can be a pain. Getting redirected to outdated suppliers or not getting the exact product you browsed for is a headache. No one deserves that, and that's why, Welcome to Sourcerer
+## what it does
+
+- **free-text search** — type anything, any case, any typo. nothing is matched against a local list, so nothing is ever "not supported."
+- **ai enhance (optional)** — flip it on and your search gets cleaned up before it goes out: typos fixed, casing normalized, your custom requirements folded in. runs on groq, using your own api key, stored only on your machine. leave it off and everything still works exactly the same, just without the polish.
+- **custom requirements** — add stuff like "min order 100" or "must be waterproof" and it gets woven into the search.
+- **exact tab count** — the slider is a promise now. ask for 8 tabs, get 8 tabs, even if your region filter narrows the pool.
+- **region filter** — toggle regions on, then pick whitelist (only these) or blacklist (everything but these).
+- **your real browser** — every result opens as a normal tab. sourcerer holds nothing and tracks nothing.
+- **one exe** — no installer, no python, no background service.
 
 <br>
 
-## Why it exists
+## using it
 
- I simply don't like the concept of people struggling and looking something up and finding suppliers from an algorithm of predefined suppliers, set by someone else. Nobody deserves that, which is why this tool exists. There are no predefined sites set into this, it learns from user data and finds supplier for them. I am soon going to integrate AI models in this tool so it won't be a hassle to use it anymore.
+1. run `sourcerer.exe`.
+2. type what you're sourcing.
+3. *(optional)* add any custom requirements.
+4. drag the slider for how many tabs you want.
+5. *(optional)* toggle regions, pick whitelist or blacklist.
+6. *(optional)* turn on ai enhance in settings with your own groq key.
+7. hit **search suppliers**.
 
-<br>
-
-## What it does
-
-- **Free-text search** &mdash; type anything, in any case. Nothing is matched against a local database, so nothing is ever "not supported."
-- **Tab slider** &mdash; drag to decide how many supplier tabs open at once, from a quick 1-tab check to a full sweep of the network.
-- **Region control** &mdash; flip regions on with a switch, then choose whether that selection is a *whitelist* (only these) or a *blacklist* (everything but these). Leave nothing selected and every region is in play.
-- **Opens your real browser** &mdash; every result lands as a normal tab in your default browser. Sourcerer itself holds nothing, tracks nothing, and closes the moment you close it.
-- **One executable** &mdash; no installer, no Python runtime, no background service. Download it, run it, done.
+that's it. no accounts, no onboarding.
 
 <br>
 
-## Using it
+## the sourcing network
 
-1. Launch `Sourcerer.exe`.
-2. Type what you're sourcing into the search bar.
-3. Drag the slider to set how many tabs you want opened.
-4. *(Optional)* Toggle regions on and choose Whitelist or Blacklist.
-5. Hit **Search Suppliers**. Your browser opens with a tab per source, already searching.
-
-That's the entire workflow. No accounts, no setup screens, no onboarding.
-
-<br>
-
-## The sourcing network
-
-Sourcerer doesn't scrape or index anything &mdash; it builds a live search URL for each source below and hands it straight to your browser, so every result you see is fetched directly from that marketplace itself, in real time.
-
-| Source | Region |
+| source | region |
 |---|---|
-| Alibaba | Global |
-| AliExpress | Global |
-| Etsy | Global |
-| IndiaMART | India |
-| TradeIndia | India |
-| ThomasNet | USA |
-| eBay | USA |
-| Amazon | USA |
-| Made-in-China | China |
-| DHgate | China |
-| Amazon UK | Europe |
-| Amazon Germany | Europe |
-| eBay UK | Europe |
-| Amazon UAE | Middle East |
-| Rakuten Japan | Asia-Pacific |
-| eBay Australia | Asia-Pacific |
+| alibaba | global |
+| aliexpress | global |
+| etsy | global |
+| indiamart | india |
+| tradeindia | india |
+| thomasnet | usa |
+| ebay | usa |
+| amazon | usa |
+| made-in-china | china |
+| dhgate | china |
+| amazon uk | europe |
+| amazon germany | europe |
+| ebay uk | europe |
+| amazon uae | middle east |
+| rakuten japan | asia-pacific |
+| ebay australia | asia-pacific |
 
 <br>
 
-## Region filtering, explained
+## installing
 
-The toggles above the search button don't hide sources from a list &mdash; they change which of the sources above are eligible before the tab count is applied.
+no installer, no dependencies. just the exe.
 
-- **Nothing toggled** &mdash; every region is eligible. This is the default.
-- **Whitelist mode** &mdash; only the toggled regions are eligible. Flip on *India* and *USA* to source domestically, ignore the rest.
-- **Blacklist mode** &mdash; every region *except* the toggled ones is eligible. Flip on *China* in Blacklist mode to search everywhere else.
-
-The tab slider then pulls from whatever pool that leaves, always in the same diversified order, so a small tab count still spreads across regions instead of clustering on one.
+1. grab `sourcerer.exe` from this repo.
+2. run it.
+3. windows smartscreen might flag it since it isn't code-signed. click **more info → run anyway**.
 
 <br>
 
-## Installing
+## about the ai bit
 
-No installer, no dependencies, no Python required on your machine. Just the exe.
-
-1. Grab `Sourcerer.exe` from this repository.
-2. Run it.
-3. Windows SmartScreen will probably flag it as unrecognized &mdash; that's just because it isn't code-signed (signing certificates aren't cheap for a solo side project). Click **More info → Run anyway**. It's not doing anything shady, I promise, but obviously don't take a stranger's word for it &mdash; the source is small enough to read yourself if you want to be sure.
+ai enhance is off by default and needs your own free groq api key (get one at console.groq.com) — sourcerer never ships with a key baked in, and nothing gets sent anywhere unless you turn it on yourself. without it, sourcerer works exactly like before: your typed query, straight to every tab.
 
 <br>
 
-## A note on how it behaves
+## how it behaves
 
-It doesn't phone home, doesn't collect analytics, doesn't store your searches anywhere, and doesn't touch anything on your machine beyond opening your browser. Every tab it opens is just a normal search results page on the destination site's own domain. I have no interest in logging what you search for &mdash; I built this to save myself time, not to collect data.
+doesn't phone home, doesn't collect analytics, doesn't store your searches. the only outside call it ever makes is to groq, and only if you've turned ai enhance on. every tab is just a normal search page on the destination site's own domain.
 
 <br>
 
-## Known rough edges
+## found a bug?
 
-Since this is beta and maintained by one person:
+message me on discord: **@.moxio**. sourcerer also pings you with this on launch, just in case.
 
-- Some marketplaces occasionally change how their search URLs work, which can make a tab land somewhere unexpected until I notice and fix it.
-- Opening a lot of tabs at once depends on your browser and machine &mdash; it can lag on slower setups.
-- No auto-update yet. New versions get posted here whenever they're ready, not on any set cadence.
+<br>
 
-If you hit something broken, it's genuinely useful to know about &mdash; open an issue and I'll get to it when I can.
+## license
 
+mit — use it, fork it, point it at whatever you're sourcing.
+
+<p align="center"><sub>built and maintained solo, whenever there's time for it.</sub></p>
