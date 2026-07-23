@@ -14,11 +14,11 @@
 
 <br>
 
-> **Heads up: this is a beta.** I built and ship this alone, in whatever spare time I've got, so it's rough around the edges and will occasionally do something dumb &mdash; a marketplace changes its URL format, a tab opens slower than the rest, that kind of thing. Updates happen when I get to them, not on a schedule. If it breaks for you, it's not you, it's the one-person team behind it.
+> **Heads up: this is a beta.** this tool is solely developed by a single person, so it's not throughly tested, nor it is regularly updated. I built this tool to make it easier for those finding suppliers on products they're looking for, just by a click of a button. I don't regularly update this and it's pretty much in beta. If the searches are successful, that's a good thing, if it breaks, that's on me, I'm still working on this project. Please note this isn't abandoned, but it isn't my main focus aswell. 
 
 <br>
 
-A solo developed tool, built out of frustration with how manual, slow, and repetitive supplier sourcing has become. I got tired of opening the same six marketplace tabs by hand every time I needed to find a supplier for something, so I built the thing that does it for me. Sourcerer takes whatever you type &mdash; a product, a material, a spec, a part number, whatever &mdash; and fans it out across a network of global marketplaces and B2B directories, one browser tab per source, ready to compare. No sign-up, no predefined product list, no telling you what you're "allowed" to search for. Type it, tab it, source it.
+Opening tons of tabs can be a pain. Getting redirected to outdated suppliers or not getting the exact product you browsed for is a headache. No one deserves that, and that's why, Welcome to Sourcerer
 
 <br>
 
