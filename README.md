@@ -14,6 +14,8 @@
 <br>
 
 > heads up, this is a solo project and still rough in places. i built it because i was tired of opening the same six marketplace tabs by hand every time i needed a supplier. updates happen whenever i get to them.
+>
+> ONCE YOU ENTER THE PRODUCT, YOU HAVE TO PRESS ENTER SO IT SOURCES THE OBJECT!! May not be accurate 40% of the time and may break. Get your own API key at https://console.groq.com (runs locally on your machine). You can put your own API key by pressing settings on top right. Never share your key with others.
 
 <br>
 
