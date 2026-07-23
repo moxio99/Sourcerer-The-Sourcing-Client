@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">sourcerer</h1>
-<p align="center"><i>type it, tab it, source it.</i></p>
+<p align="center"><i>To Browse more faster, Get an API key at https://console.groq.com and paste it in the settings menu! This makes the tool 10x more smarter and browses accurately!</i></p>
 
 <p align="center">
   <img alt="platform" src="https://img.shields.io/badge/platform-windows-0e1626?style=flat-square">
