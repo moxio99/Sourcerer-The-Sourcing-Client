@@ -92,10 +92,4 @@ doesn't phone home, doesn't collect analytics, doesn't store your searches. the 
 
 message me on discord: **@.moxio**. sourcerer also pings you with this on launch, just in case.
 
-<br>
 
-## license
-
-mit — use it, fork it, point it at whatever you're sourcing.
-
-<p align="center"><sub>built and maintained solo, whenever there's time for it.</sub></p>
