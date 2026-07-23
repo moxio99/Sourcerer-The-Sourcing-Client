@@ -14,7 +14,7 @@
 
 <br>
 
-> **Heads up: this is a beta.** this tool is solely developed by a single person, so it's not throughly tested, nor it is regularly updated. I built this tool to make it easier for those finding suppliers on products they're looking for, just by a click of a button. I don't regularly update this and it's pretty much in beta. If the searches are successful, that's a good thing, if it breaks, that's on me, I'm still working on this project. Please note this isn't abandoned, but it isn't my main focus aswell. 
+> Please note that this tool is solely developed by a single person, so it's not throughly tested, nor it is regularly updated. I built this tool to make it easier for those finding suppliers on products they're looking for, just by a click of a button. I don't regularly update this and it's pretty much in beta. If the searches are successful, that's a good thing, if it breaks, that's on me, I'm still working on this project. Please note this isn't abandoned, but it isn't my main focus aswell. 
 
 <br>
 
