@@ -24,7 +24,7 @@ Opening tons of tabs can be a pain. Getting redirected to outdated suppliers or 
 
 ## Why it exists
 
-Most sourcing tools make you pick from a dropdown of categories someone else already decided you need. This doesn't do that. There's no product catalog baked in, no list of "supported items" &mdash; the search box takes anything, in any case, and it just goes and opens the tabs. That was the whole point of building it: the second a tool makes you pre-teach it what you're allowed to search for, it stops being useful for the thing you actually needed it for. I'd rather ship something a little rough that searches for anything than something polished that only searches for what I thought to hardcode.
+ I simply don't like the concept of people struggling and looking something up and finding suppliers from an algorithm of predefined suppliers, set by someone else. Nobody deserves that, which is why this tool exists. There are no predefined sites set into this, it learns from user data and finds supplier for them. I am soon going to integrate AI models in this tool so it won't be a hassle to use it anymore.
 
 <br>
 
@@ -112,3 +112,4 @@ Since this is beta and maintained by one person:
 - No auto-update yet. New versions get posted here whenever they're ready, not on any set cadence.
 
 If you hit something broken, it's genuinely useful to know about &mdash; open an issue and I'll get to it when I can.
+
